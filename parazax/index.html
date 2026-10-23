@@ -1,1499 +1,864 @@
 <!DOCTYPE html>
-<html lang="it"><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&amp;family=Nunito+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet">
-    <meta name="description" content="Garanta agora seu produto exclusivo com alta qualidade e durabilidade. Aproveite nossas ofertas especiais, entrega rápida e facilidade no pagamento. Compre hoje.">
-          <meta name="keywords" content="Garanta agora seu produto exclusivo com alta qualidade e durabilidade. Aproveite nossas ofertas especiais, entrega rápida e facilidade no pagamento. Compre hoje.">
-          <meta name="robots" content="index, follow">
-          <meta http-equiv="Content-Language" content="it">
-    <script type="application/json" id="adsx_info">{"url":"https://i-bay-here21.com/parazax","affiliate_link":"","platformTracking":"traffic_light","platformSource":"Traffic Light","type":"robusta_cod","product_name":"Parazax","language":"it","created_at":"2026-10-23T21:37:55.901Z","unique_id":"1792791475563_tl6dmkw6"}</script>
-    <title>Parazax</title>
-    <style type="text/css">
-        :root {
-            --rn-primary: #10536a;
-            --rn-primary-dark: #0a3747;
-            --rn-primary-soft: #e4f0f4;
-            --rn-accent: #f9a825;
-            /* Botão no desenho do CTA da review (12/09/2026): dourado com texto escuro.
-               --rn-cta-ink é o tom legível do dourado sobre fundo claro (contorno). */
-            --rn-cta: #ffc107;
-            --rn-cta-light: #ffd54f;
-            --rn-cta-text: #1a1a1a;
-            --rn-cta-ink: #8a6100;
-            --rn-surface: #ffffff;
-            --rn-surface-alt: #f2f8fa;
-            --rn-text: #182226;
-            --rn-muted: #5a666c;
-        }
-        /* Montserrat nos títulos e no botão: sans pesada, padrão de página de vendas.
-           Poppins, geométrica, dava cara de app/SaaS (12/09/2026). */
-        h1,
-        h2,
-        h3,
-        .rn-bar h2,
-        .rn-cta {
-            font-family: "Montserrat", -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
-        }
-        h1,
-        h2,
-        h3 {
-            font-weight: 800;
-            letter-spacing: -0.01em;
-        }
-        * {
-            box-sizing: border-box;
-        }
-        body {
-            margin: 0;
-            /* Nunito Sans no corpo: humanista e quente (da família da Muli das páginas
-               de referência), boa de ler no celular. Inter lia como tela de sistema. A pilha
-               do sistema fica como fallback — e e ela que atende os idiomas fora
-               do alfabeto latino, quando o Google nao serve o subset. */
-            font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-            color: var(--rn-text);
-            background: var(--rn-surface);
-            line-height: 1.55;
-            -webkit-font-smoothing: antialiased;
-        }
-        .rn-section {
-            padding: 56px 20px;
-        }
-        .rn-container {
-            max-width: 920px;
-            margin: 0 auto;
-        }
-        .rn-section h2 {
-            font-size: clamp(1.5rem, 3.4vw, 2.1rem);
-            line-height: 1.2;
-            margin: 0 0 18px;
-            color: var(--rn-primary-dark);
-            text-align: center;
-        }
-        .rn-section p {
-            font-size: 1.05rem;
-            margin: 0 0 14px;
-        }
-        /* Ritmo: as seções alternam fundo pela ordem em que existem, então seção
-           opcional ausente não deixa duas iguais seguidas. */
-        section:nth-of-type(even) {
-            background: var(--rn-surface-alt);
-        }
-        /* A solução é o pivô da página: cartão branco sobre a cor da marca. */
-        #rn-solution,
-        section#rn-solution:nth-of-type(even) {
-            background: var(--rn-primary);
-        }
-        #rn-solution .rn-split {
-            background: var(--rn-surface);
-            border-radius: 5px;
-            padding: 32px;
-        }
-        #rn-guarantee,
-        section#rn-guarantee:nth-of-type(even) {
-            background: var(--rn-primary-soft);
-        }
-        /* Fundo próprio vence a alternância: sem isto, o fechamento em posição
-           par ficava claro com texto branco (11/09/2026, com a seção de selos). */
-        #rn-final,
-        section#rn-final:nth-of-type(even) {
-            background: var(--rn-primary-dark);
-        }
-        .rn-img {
-            display: block;
-            margin: 24px auto 0;
-            border-radius: 5px;
-        }
-        .rn-cta {
-            display: inline-block;
-            /* Quebra linha: com nowrap um rótulo longo empurrava a página além da
-               largura do celular (531px num viewport de 390, 10/09/2026). */
-            white-space: normal;
-            max-width: 100%;
-            text-align: center;
-            text-transform: uppercase;
-            /* cor base editável via background-color; o degradê vai por cima */
-            background-color: var(--rn-cta);
-            background-image: linear-gradient(135deg, transparent, var(--rn-cta-light));
-            color: var(--rn-cta-text);
-            text-decoration: none;
-            font-weight: 700;
-            font-size: clamp(0.98rem, 1.5vw, 1.08rem);
-            letter-spacing: 1px;
-            line-height: 1.35;
-            padding: 17px 44px;
-            border-radius: 50px;
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.28);
-            position: relative;
-            overflow: hidden;
-            z-index: 1;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        /* brilho que atravessa o botão em loop, como na review */
-        .rn-cta::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: -200%;
-            width: 200%;
-            height: 100%;
-            background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.35), transparent);
-            animation: rn-shimmer 3.5s linear infinite;
-            z-index: -1;
-        }
-        .rn-cta:hover {
-            transform: translateY(-3px) scale(1.03);
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.34);
-        }
-        .rn-cta:hover::before {
-            animation-duration: 1.5s;
-        }
-        @keyframes rn-shimmer {
-            0% { left: -200%; }
-            50% { left: 100%; }
-            100% { left: -200%; }
-        }
-        @media (prefers-reduced-motion: reduce) {
-            .rn-cta::before { animation: none; }
-        }
-        .rn-cta-wrap {
-            text-align: center;
-            margin-top: 28px;
-        }
-        /* Barra de topo: nome do produto como marca + CTA. Sem ela a página
-           abria "no meio" e parecia documento, não site. */
-        .rn-topbar {
-            background: var(--rn-primary-dark);
-            padding: 12px 20px;
-        }
-        .rn-topbar__row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 16px;
-        }
-        .rn-brand {
-            font-family: "Montserrat", sans-serif;
-            font-weight: 700;
-            font-size: 1.35rem;
-            color: #fff;
-            letter-spacing: 0.01em;
-        }
-        .rn-topbar__cta {
-            background-color: var(--rn-cta);
-            background-image: linear-gradient(135deg, transparent, var(--rn-cta-light));
-            color: var(--rn-cta-text);
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            text-decoration: none;
-            font-weight: 700;
-            font-size: 0.92rem;
-            padding: 9px 18px;
-            border-radius: 999px;
-            white-space: nowrap;
-        }
-        /* Hero em cor cheia: é a dobra que decide se a página parece site. */
-        .rn-hero {
-            background: linear-gradient(135deg, var(--rn-primary-dark) 0%, var(--rn-primary) 100%);
-            color: #fff;
-            padding: 48px 20px 40px;
-            text-align: center;
-        }
-        .rn-hero h1 {
-            font-size: clamp(1.85rem, 4.2vw, 2.45rem);
-            line-height: 1.12;
-            margin: 0 0 14px;
-            color: #fff;
-        }
-        .rn-hero .rn-sub {
-            font-size: clamp(1.05rem, 2.2vw, 1.25rem);
-            color: rgba(255, 255, 255, 0.85);
-            margin: 0 auto 14px;
-            max-width: 720px;
-        }
-        /* Prova e garantia da hero: discretas, no rodapé da seção e lado a lado,
-           para não disputar a atenção com o CTA (11/09/2026). */
-        .rn-hero__facts {
-            list-style: none;
-            margin: 36px auto 0;
-            padding: 0;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 8px 32px;
-            color: rgba(255, 255, 255, 0.78);
-            font-size: 0.92rem;
-        }
-        .rn-hero__facts:empty {
-            display: none;
-        }
-        .rn-hero__facts li {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-        .rn-hero__facts li::before {
-            content: "";
-            flex: 0 0 16px;
-            height: 16px;
-            opacity: 0.8;
-            background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><circle cx='12' cy='12' r='10.5' fill='none' stroke='white' stroke-width='1.8'/><path d='M7.5 12.4l3 3 6-6.4' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>") center/contain no-repeat;
-        }
-        .rn-stories-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-            gap: 18px;
-            margin-top: 8px;
-        }
-        /* Depoimento com foto grande: é onde o usuário põe a pessoa com o
-           produto, a prova social que a referência mostra em polaroid. */
-        .rn-story {
-            background: var(--rn-surface);
-            border: 1px solid var(--rn-primary-soft);
-            border-radius: 5px;
-            overflow: hidden;
-            padding-bottom: 20px;
-        }
-        .rn-story-photo {
-            display: block;
-            width: 100%;
-            aspect-ratio: 4 / 3;
-            object-fit: cover;
-            margin-bottom: 16px;
-        }
-        .rn-story p {
-            font-style: italic;
-            margin: 0 20px 12px;
-        }
-        .rn-story-name {
-            display: block;
-            margin: 0 20px;
-            font-weight: 700;
-            color: var(--rn-primary-dark);
-        }
-        .rn-steps {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 18px;
-            counter-reset: rn-step;
-        }
-        .rn-step {
-            background: var(--rn-surface);
-            border-radius: 5px;
-            padding: 22px 22px 22px 64px;
-            position: relative;
-            border: 1px solid var(--rn-primary-soft);
-        }
-        .rn-step::before {
-            counter-increment: rn-step;
-            content: counter(rn-step);
-            position: absolute;
-            left: 18px;
-            top: 20px;
-            width: 32px;
-            height: 32px;
-            border-radius: 50%;
-            background: var(--rn-primary);
-            color: #fff;
-            font-weight: 700;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .rn-step h3 {
-            margin: 0 0 6px;
-            font-size: 1.1rem;
-            color: var(--rn-primary-dark);
-        }
-        .rn-step p {
-            margin: 0;
-            font-size: 0.98rem;
-        }
-        .rn-benefits-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 12px 24px;
-        }
-        .rn-benefits-list li {
-            position: relative;
-            padding-left: 34px;
-            font-size: 1.05rem;
-        }
-        .rn-benefits-list li::before {
-            content: "";
-            position: absolute;
-            left: 0;
-            top: 4px;
-            width: 22px;
-            height: 22px;
-            border-radius: 50%;
-            background: var(--rn-primary) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M6 12.5l4 4 8-9' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/></svg>") center/14px no-repeat;
-        }
-        /* Regra de largura: texto corrido em .rn-narrow (720px, ~70 caracteres por
-           linha) e grade de cards no container cheio (920px). Sem isto, seções de
-           parágrafo ficam com linhas de larguras diferentes ao longo da página. */
-        .rn-narrow {
-            max-width: 720px;
-        }
-        .rn-ingredients {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 22px 18px;
-        }
-        /* Foto redonda + nome em etiqueta: o cartão de ingrediente vira selo,
-           não caixa de texto. */
-        .rn-ingredient {
-            text-align: center;
-            padding: 0;
-        }
-        .rn-ingredient-img {
-            display: block;
-            aspect-ratio: 1 / 1;
-            height: auto;
-            border-radius: 50%;
-            object-fit: cover;
-            margin: 0 auto 14px;
-            border: 5px solid var(--rn-surface);
-            box-shadow: 0 6px 18px rgba(16, 83, 106, 0.16);
-        }
-        .rn-ingredient h3 {
-            display: inline-block;
-            background: var(--rn-primary);
-            color: #fff;
-            font-size: 0.98rem;
-            padding: 7px 16px;
-            border-radius: 5px;
-            margin: 0 0 8px;
-        }
-        .rn-ingredient p {
-            margin: 0;
-            font-size: 0.94rem;
-            color: var(--rn-muted);
-        }
-        .rn-guarantee-box {
-            background: var(--rn-surface);
-            border-radius: 5px;
-            padding: 32px 24px;
-            text-align: center;
-        }
-        .rn-guarantee-seal {
-            margin: 0 auto 12px;
-            display: block;
-        }
-        .rn-faq-item {
-            border-bottom: 1px solid var(--rn-primary-soft);
-            padding: 16px 0;
-        }
-        .rn-faq-item:last-child {
-            border-bottom: none;
-        }
-        .rn-faq-item h3 {
-            margin: 0 0 6px;
-            font-size: 1.05rem;
-            color: var(--rn-primary-dark);
-        }
-        .rn-faq-item p {
-            margin: 0;
-            font-size: 0.98rem;
-        }
-        .rn-final {
-            background: var(--rn-primary-dark);
-            color: #fff;
-            text-align: center;
-        }
-        .rn-final h2 {
-            color: #fff;
-        }
-        .rn-footer {
-            padding: 24px 20px 96px;
-            text-align: center;
-            color: var(--rn-muted);
-            font-size: 0.85rem;
-        }
-        .rn-disclaimer {
-            max-width: 760px;
-            margin: 0 auto 14px;
-            font-size: 0.8rem;
-            line-height: 1.5;
-        }
-        .rn-sticky {
-            display: none;
-        }
-        @media (max-width: 640px) {
-            .rn-brand { font-size: 1.1rem; }
-            .rn-split.rn-split--full .rn-ingredients { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 10px; }
-            .rn-topbar__cta { font-size: 0.82rem; padding: 8px 14px; }
-            .rn-section .rn-seals { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-            .rn-section .rn-seal img { width: 96px; height: 96px; }
-            .rn-section {
-                padding: 40px 18px;
-            }
-            .rn-cta {
-                width: 100%;
-                text-align: center;
-            }
-            .rn-sticky {
-                display: block;
-                position: fixed;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                padding: 10px 14px calc(10px + env(safe-area-inset-bottom));
-                background: rgba(255, 255, 255, 0.96);
-                border-top: 1px solid var(--rn-primary-soft);
-                box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.08);
-                z-index: 50;
-                transform: translateY(110%);
-                transition: transform 0.25s ease;
-            }
-            /* Só depois que o botão da hero sai da tela: antes ele cobria a imagem
-               da hero e somava 3 botões iguais em uma tela e meia (Page, 11/09/2026). */
-            .rn-sticky.is-visible {
-                transform: none;
-            }
-            .rn-section .rn-split.rn-split--full .rn-stories-grid:has(> :nth-child(4):last-child) {
-                grid-template-columns: minmax(0, 1fr);
-            }
-            .rn-sticky .rn-cta {
-                padding: 14px 20px;
-                font-size: 1.05rem;
-                box-shadow: none;
-            }
-        }
-        .rn-bar {
-            background: var(--rn-primary);
-            padding: 20px;
-        }
-        .rn-bar h2 {
-            color: #fff;
-            margin: 0;
-            text-align: center;
-            font-size: clamp(1.35rem, 3.1vw, 2rem);
-            line-height: 1.2;
-        }
-        .rn-bar + .rn-section {
-            padding-top: 40px;
-        }
-        .rn-hero__grid {
-            display: grid;
-            grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-            align-items: center;
-            gap: 48px;
-            padding: 24px 0 8px;
-        }
-        .rn-hero__img {
-            width: 100%;
-            max-width: 460px;
-            height: auto;
-            display: block;
-            margin: 0 auto;
-        }
-        .rn-signals {
-            list-style: none;
-            padding: 0;
-            margin: 0 0 18px;
-            display: grid;
-            gap: 12px;
-        }
-        .rn-signals li {
-            position: relative;
-            padding-left: 34px;
-            font-size: 1.05rem;
-        }
-        .rn-signals li::before {
-            content: "";
-            position: absolute;
-            left: 0;
-            top: 3px;
-            width: 22px;
-            height: 22px;
-            border-radius: 50%;
-            background: var(--rn-primary) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M6 12.5l4 4 8-9' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/></svg>") center/14px no-repeat;
-        }
-        .rn-who__intro {
-            font-weight: 600;
-        }
-        .rn-who__not {
-            font-size: 0.92rem;
-            color: var(--rn-muted);
-            border-left: 3px solid var(--rn-accent);
-            padding-left: 14px;
-            margin-top: 20px;
-        }
-        .rn-contrasts {
-            display: grid;
-            gap: 12px;
-            margin-top: 22px;
-        }
-        .rn-contrast {
-            display: grid;
-            grid-template-columns: 1fr auto 1fr;
-            align-items: center;
-            gap: 14px;
-            background: var(--rn-surface);
-            border: 1px solid var(--rn-primary-soft);
-            border-radius: 5px;
-            padding: 14px 18px;
-        }
-        .rn-contrast__from {
-            color: var(--rn-muted);
-            text-decoration: line-through;
-            font-size: 0.98rem;
-        }
-        .rn-contrast__arrow {
-            color: var(--rn-primary);
-            font-weight: 700;
-        }
-        .rn-contrast__to {
-            color: var(--rn-primary-dark);
-            font-weight: 600;
-            font-size: 0.98rem;
-        }
-        @media (max-width: 860px) {
-            .rn-hero__grid {
-                grid-template-columns: minmax(0, 1fr);
-                gap: 28px;
-            }
-            .rn-hero__text { order: 1; }
-            .rn-hero__media { order: 2; }
-            .rn-contrast {
-                grid-template-columns: 1fr;
-                gap: 6px;
-            }
-            .rn-contrast__arrow { display: none; }
-        }
-        .rn-expert__quote {
-            margin: 0 0 18px;
-            padding: 0 0 0 20px;
-            border-left: 4px solid var(--rn-primary);
-            font-size: 1.12rem;
-            font-style: italic;
-            line-height: 1.6;
-        }
-        .rn-expert__name {
-            margin: 0;
-            font-weight: 700;
-            font-size: 1.08rem;
-            color: var(--rn-primary-dark);
-        }
-        .rn-expert__credential {
-            margin: 2px 0 0;
-            font-size: 0.95rem;
-            color: var(--rn-muted);
-        }
-        /* Apresentação antes da citação: quem é a pessoa e o que ela fez (criou o
-           produto). Depois dela vinha a citação solta, e o leitor não sabia de quem
-           era a fala nem por que ouvi-la (12/09/2026). */
-        .rn-section .rn-expert__role {
-            margin: 0 0 18px;
-            font-size: 1.08rem;
-        }
-        /* Toda seção: texto numa coluna, imagem na outra, CTA ocupando as duas.
-           O lado da imagem alterna pela ordem das <section> presentes
-           (nth-of-type), então seção opcional que some não quebra o zigue-zague.
-           Sem imagem (o usuário apagou no editor) o texto ocupa a largura toda. */
-        .rn-split {
-            max-width: 1040px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-            gap: 28px 48px;
-            align-items: center;
-        }
-        .rn-split__media img {
-            display: block;
-            width: 100%;
-            height: auto;
-            border-radius: 5px;
-        }
-        section:nth-of-type(even) .rn-split__media {
-            order: -1;
-        }
-        .rn-split__cta {
-            grid-column: 1 / -1;
-            margin-top: 4px;
-        }
-        .rn-split:not(:has(.rn-split__media img)) {
-            grid-template-columns: minmax(0, 1fr);
-            max-width: 720px;
-        }
-        .rn-split:not(:has(.rn-split__media img)) .rn-split__media {
-            display: none;
-        }
-        /* Grades de cards viram coluna única dentro da metade da largura. */
-        .rn-split .rn-steps,
-        .rn-split .rn-benefits-list,
-        .rn-split .rn-ingredients,
-        .rn-split .rn-stories-grid {
-            grid-template-columns: minmax(0, 1fr);
-        }
-        .rn-split__text > h2 {
-            text-align: left;
-        }
-        .rn-final .rn-split__text > h2 {
-            color: #fff;
-            margin: 0;
-        }
-        .rn-guarantee-box {
-            max-width: 1040px;
-        }
-        /* Seções de cards (ingredientes, depoimentos) usam a largura toda: a
-           imagem de cada uma está dentro dos cards, não numa coluna ao lado. */
-        .rn-split.rn-split--full,
-        .rn-split.rn-split--full:not(:has(.rn-split__media img)) {
-            grid-template-columns: minmax(0, 1fr);
-            max-width: 1040px;
-        }
-        .rn-split.rn-split--full .rn-ingredients {
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        }
-        .rn-split.rn-split--full .rn-stories-grid {
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-        }
-        .rn-split.rn-split--full .rn-stories-grid:has(> :nth-child(4):last-child) {
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-            max-width: 780px;
-            margin: 0 auto;
-        }
-        /* Moldura fixa: a imagem preenche e fica centralizada — horizontal perde
-           as laterais, vertical perde topo e base. Nunca achata. Como a moldura
-           é aspect-ratio, ela acompanha a largura: diminuir pelo editor continua
-           funcionando. Hero, especialista e garantia são quadrados; as demais
-           seções, 4:3. No especialista o corte sobe, para não cortar a cabeça. */
-        .rn-hero__img,
-        .rn-split__media img {
-            object-fit: cover;
-            object-position: center;
-        }
-        .rn-hero__img {
-            aspect-ratio: 1 / 1;
-            border-radius: 5px;
-        }
-        .rn-split__media img {
-            aspect-ratio: 4 / 3;
-        }
-        #rn-expert .rn-split__media img,
-        #rn-guarantee .rn-split__media img {
-            aspect-ratio: 1 / 1;
-        }
-        #rn-expert .rn-split__media img {
-            object-position: center 20%;
-        }
-        /* Bônus: cards com capa em pé (e-book) e o número no canto. */
-        .rn-section .rn-bonuses__intro {
-            text-align: center;
-            max-width: 720px;
-            margin: 0 auto 22px;
-        }
-        .rn-bonuses {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 18px;
-        }
-        .rn-bonus {
-            position: relative;
-            background: var(--rn-surface);
-            border: 1px solid var(--rn-primary-soft);
-            border-radius: 5px;
-            overflow: hidden;
-            padding-bottom: 16px;
-        }
-        .rn-bonus > div {
-            padding: 0 16px;
-        }
-        .rn-bonus-img {
-            display: block;
-            aspect-ratio: 3 / 4;
-            object-fit: cover;
-            object-position: center;
-        }
-        .rn-bonus-num {
-            position: absolute;
-            top: 12px;
-            left: 12px;
-            width: 34px;
-            height: 34px;
-            border-radius: 50%;
-            background: var(--rn-accent);
-            color: var(--rn-text);
-            font-weight: 800;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .rn-bonus h3 {
-            margin: 14px 0 6px;
-            font-size: 1.05rem;
-            color: var(--rn-primary-dark);
-        }
-        .rn-bonus p {
-            margin: 0;
-            font-size: 0.95rem;
-            color: var(--rn-muted);
-        }
-        /* No celular o card deita: capa pequena ao lado do texto, senão cada
-           capa ocupava a tela inteira. */
-        @media (max-width: 640px) {
-            .rn-bonus {
-                display: grid;
-                grid-template-columns: 104px minmax(0, 1fr);
-                gap: 14px;
-                align-items: center;
-                padding: 12px;
-            }
-            .rn-bonus > div {
-                padding: 0;
-            }
-            .rn-bonus-img {
-                border-radius: 10px;
-            }
-            .rn-bonus h3 {
-                margin-top: 0;
-            }
-            .rn-bonus-num {
-                top: 4px;
-                left: 4px;
-                width: 28px;
-                height: 28px;
-                font-size: 0.9rem;
-            }
-        }
-        /* Dois pesos de CTA (avaliação do Page, 11/09/2026): botão cheio só nos 5
-           momentos de decisão (hero, solução, histórias, garantia, fechamento); nos
-           demais, contorno. 17 botões iguais ensinavam o olho a ignorar todos. */
-        .rn-cta.rn-cta--ghost {
-            background: transparent;
-            color: var(--rn-cta-ink);
-            border: 2px solid var(--rn-cta);
-            box-shadow: none;
-            font-size: clamp(0.9rem, 1.4vw, 1rem);
-            padding: 12px 30px;
-        }
-        .rn-cta.rn-cta--ghost::before {
-            content: none;
-        }
-        .rn-cta.rn-cta--ghost:hover {
-            background-color: var(--rn-cta);
-            background-image: linear-gradient(135deg, transparent, var(--rn-cta-light));
-            color: var(--rn-cta-text);
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
-        }
-        /* Faixa colorida só nas 4 aberturas de capítulo; nas outras seções o título
-           fica dentro da seção, alinhado ao texto, com um traço de destaque. */
-        .rn-bar__eyebrow {
-            display: block;
-            text-align: center;
-            color: rgba(255, 255, 255, 0.75);
-            font-size: 0.8rem;
-            font-weight: 700;
-            letter-spacing: 0.14em;
-            text-transform: uppercase;
-            margin-bottom: 6px;
-        }
-        .rn-section__head {
-            max-width: 1040px;
-            margin: 0 auto 28px;
-        }
-        .rn-section .rn-section__head h2 {
-            text-align: left;
-            margin: 0;
-            font-size: clamp(1.5rem, 3vw, 2.05rem);
-            color: var(--rn-primary-dark);
-        }
-        .rn-section .rn-section__head h2::before {
-            content: "";
-            display: block;
-            width: 48px;
-            height: 4px;
-            border-radius: 2px;
-            background: var(--rn-cta);
-            margin-bottom: 14px;
-        }
-        #rn-solution .rn-section .rn-section__head h2,
-        #rn-solution .rn-section__head h2 {
-            color: #fff;
-        }
-        .rn-split__text .rn-steps {
-            margin-top: 18px;
-        }
-        /* Selos fixos (decisão do Victor, 11/09/2026): os 4 sempre, numa seção
-           própria antes do FAQ — fora da hero. */
-        .rn-seals {
-            display: grid;
-            grid-template-columns: repeat(4, minmax(0, 1fr));
-            gap: 24px 18px;
-            max-width: 820px;
-            margin: 0 auto;
-        }
-        .rn-seal {
-            text-align: center;
-        }
-        .rn-seal img {
-            display: block;
-            width: 120px;
-            height: 120px;
-            margin: 0 auto 12px;
-            border-radius: 50%;
-            object-fit: cover;
-        }
-        .rn-section .rn-seal h3 {
-            margin: 0;
-            font-size: 0.98rem;
-            color: var(--rn-primary-dark);
-        }
-        @media (max-width: 860px) {
-            .rn-split {
-                grid-template-columns: minmax(0, 1fr);
-                gap: 24px;
-            }
-            section:nth-of-type(even) .rn-split__media {
-                order: 0;
-            }
-            .rn-split__media img {
-                max-width: 520px;
-                margin: 0 auto;
-            }
-            .rn-split__text > h2 {
-                text-align: center;
-            }
-        }
-        /* Robusta COD: os botões rolam até a seção do pedido. */
-        html {
-            scroll-behavior: smooth;
-        }
-        #rn-order,
-        section#rn-order:nth-of-type(even) {
-            background: var(--rn-primary-dark);
-        }
-        .rn-cta-note {
-            margin: 10px 0 0;
-            font-size: 0.9rem;
-            opacity: 0.85;
-        }
-        .rn-section .rn-cta-note {
-            font-size: 0.9rem;
-            margin: 10px 0 0;
-        }
-        .rn-order .rn-container {
-            max-width: 1040px;
-        }
-        .rn-order h2 {
-            color: #fff;
-        }
-        .rn-section .rn-order__intro {
-            max-width: 680px;
-            margin: 0 auto 28px;
-            color: rgba(255, 255, 255, 0.85);
-        }
-        .rn-order__grid {
-            display: grid;
-            grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-            gap: 28px;
-            align-items: start;
-            text-align: left;
-        }
-        /* Filho direto: o h3 dos passos (.rn-step h3) fica com a cor dele. */
-        .rn-order__info > h3 {
-            color: #fff;
-            font-size: 1.25rem;
-            margin: 0 0 16px;
-        }
-        .rn-order__steps {
-            display: grid;
-            gap: 12px;
-            counter-reset: rn-step;
-        }
-        .rn-order__steps .rn-step {
-            color: var(--rn-text);
-        }
-        .rn-section .rn-order__norisk {
-            margin: 18px 0 0;
-            padding: 14px 16px;
-            border: 1px dashed rgba(255, 255, 255, 0.45);
-            border-radius: 5px;
-            color: #fff;
-        }
-        .rn-order__card {
-            background: var(--rn-surface);
-            color: var(--rn-text);
-            border-radius: 8px;
-            padding: 24px;
-            box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
-        }
-        .rn-order__product img {
-            display: block;
-            width: 100%;
-            aspect-ratio: 4 / 3;
-            object-fit: cover;
-            border-radius: 5px;
-        }
-        .rn-order__badges {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 8px;
-            margin: 16px 0 6px;
-        }
-        .rn-order__badges span {
-            background: var(--rn-primary-soft);
-            color: var(--rn-primary-dark);
-            font-weight: 700;
-            font-size: 0.82rem;
-            padding: 4px 12px;
-            border-radius: 999px;
-        }
-        .rn-order__price {
-            text-align: center;
-            font-family: "Montserrat", sans-serif;
-            font-weight: 800;
-            font-size: 2.2rem;
-            color: var(--rn-primary-dark);
-            margin: 4px 0 14px;
-        }
-        .rn-section .rn-order__shipping {
-            margin: -8px 0 14px;
-            text-align: center;
-            font-size: 0.88rem;
-            color: var(--rn-muted);
-        }
-        .rn-order .form-input {
-            width: 100%;
-            padding: 13px 14px;
-            margin-bottom: 10px;
-            border: 1px solid #d1d5db;
-            border-radius: 5px;
-            font-size: 1rem;
-            font-family: inherit;
-            color: var(--rn-text);
-            background: #fff;
-        }
-        .rn-order .form-input:focus {
-            outline: none;
-            border-color: var(--rn-primary);
-            box-shadow: 0 0 0 3px var(--rn-primary-soft);
-        }
-        .rn-order .cta-button {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
-            border: none;
-            border-radius: 999px;
-            padding: 16px 20px;
-            cursor: pointer;
-            font-family: "Montserrat", sans-serif;
-            font-weight: 800;
-            font-size: 1.05rem;
-            text-transform: uppercase;
-            background-color: var(--rn-cta);
-            background-image: linear-gradient(135deg, transparent, var(--rn-cta-light));
-            color: var(--rn-cta-text);
-            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
-        }
-        /* Enquanto o lead é enviado o snippet desabilita o botão: spinner no lugar
-           do cadeado, como no cod_form (a rede leva ~2 s). */
-        .rn-order .cta-button[disabled] {
-            opacity: 0.85;
-            cursor: progress;
-        }
-        .rn-order .cta-button[disabled] .cta-icon {
-            display: none;
-        }
-        .rn-order .cta-spinner {
-            display: none;
-            width: 17px;
-            height: 17px;
-            border: 2px solid rgba(0, 0, 0, 0.25);
-            border-top-color: var(--rn-cta-text);
-            border-radius: 50%;
-            animation: rn-cta-spin 0.7s linear infinite;
-        }
-        .rn-order .cta-button[disabled] .cta-spinner {
-            display: inline-block;
-        }
-        @keyframes rn-cta-spin {
-            to {
-                transform: rotate(360deg);
-            }
-        }
-        .rn-section .cta-note {
-            margin: 10px 0 0;
-            font-size: 0.82rem;
-            color: var(--rn-muted);
-            text-align: center;
-        }
-        .rn-thanks {
-            text-align: center;
-        }
-        .rn-thanks__icon {
-            width: 64px;
-            height: 64px;
-            margin: 0 auto 14px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: var(--rn-primary-soft);
-            color: var(--rn-primary);
-        }
-        .rn-order .rn-thanks__title {
-            color: var(--rn-primary-dark);
-            font-size: 1.3rem;
-            margin: 0 0 8px;
-        }
-        .rn-thanks__info,
-        .rn-thanks__gift {
-            margin: 14px 0;
-            padding: 12px 14px;
-            border-radius: 5px;
-            background: var(--rn-surface-alt);
-            font-size: 0.95rem;
-            text-align: left;
-        }
-        .rn-thanks__gift span,
-        .rn-thanks__gift strong {
-            display: block;
-        }
-        .rn-section .rn-thanks__gift p {
-            margin: 4px 0 0;
-            font-size: 0.92rem;
-        }
-        @media (max-width: 760px) {
-            .rn-order__grid {
-                grid-template-columns: minmax(0, 1fr);
-            }
-            .rn-order__card {
-                padding: 18px;
-            }
-        }
-        
-    </style>
-</head>
-<body>
-    <div class="rn-topbar">
-        <div class="rn-container rn-topbar__row">
-            <span class="rn-brand">Parazax</span>
-            <a href="#rn-order" class="rn-topbar__cta">Richiedi la consegna</a>
-        </div>
-    </div>
+<html lang="it" dir="ltr">
 
-    <header class="rn-hero">
-        <div class="rn-container rn-hero__grid">
-            <div class="rn-hero__media"><img class="rn-hero__img" src="https://i-bay-here21.com/parazax/images/1792791524092-parazax-complex-30-capsule.webp" alt="Parazax" width="600" height="600" style="width:100%;max-width:100%;height:auto"></div>
-            <div class="rn-hero__text">
-                <h1>Un complesso di erbe naturali per purificare profondamente il corpo dai parassiti</h1>
-                <p class="rn-sub">Scopri come la combinazione di estratti vegetali può aiutarti a eliminare le tossine e rigenerare i tuoi organi in modo naturale.</p>
-                <div class="rn-cta-wrap">
-                    <a href="#rn-order" class="rn-cta">Richiedi la consegna</a>
-                    <p class="rn-cta-note">Você só paga quando receber em casa</p>
-                </div>
-            </div>
-        </div>
-        <ul class="rn-container rn-hero__facts"><li>98% delle persone che hanno assunto <strong>Parazax</strong> sono riuscite a purificare completamente il proprio corpo</li><li>Soddisfatto o non paghi nulla</li></ul>
-    </header>
-
-
-    <div class="rn-bar"><h2>Questo approccio fa per te se cerchi una soluzione naturale</h2></div>
-    <section class="rn-section" id="rn-who">
-        <div class="rn-split">
-            <div class="rn-split__text">
-                <p class="rn-who__intro"><strong>Parazax</strong> è pensato per chiunque voglia prendersi cura del proprio corpo in modo sistemico e consapevole.</p>
-                <ul class="rn-signals"><li>Ti senti sempre stanco e senza forze nonostante il riposo.</li><li>Hai problemi digestivi frequenti che non sanno spiegarsi.</li><li>Noti eruzioni cutanee o reazioni allergiche improvvise.</li><li>Soffri di frequenti raffreddori o cali di energia.</li></ul>
-                
-            </div>
-            <div class="rn-split__media"><img src="https://i-bay-here21.com/parazax/images/1792792544442-product-center-1.png" alt="Parazax" width="800" height="600" loading="lazy" style="width: 84%; max-width: 100%; height: auto;" ></div>
-            
-            <div class="rn-split__cta rn-cta-wrap"><a href="#rn-order" class="rn-cta rn-cta--ghost">Ordina ora</a></div>
-            
-        </div>
-    </section>
-
-    <section class="rn-section" id="rn-problem">
-        <div class="rn-section__head"><h2>Ti senti costantemente stanco o noti cambiamenti inspiegabili nel tuo benessere quotidiano?</h2></div>
-        <div class="rn-split">
-            <div class="rn-split__text">
-                <p><strong>Spesso la causa del tuo malessere è nascosta</strong> dove meno te lo aspetti. Potresti convivere con tossine invisibili che consumano le tue energie e compromettono la tua vitalità ogni giorno.</p><p><strong>Se ignori questi segnali</strong>, la situazione può solo peggiorare, portando a una debolezza prolungata e a un sistema immunitario sempre più vulnerabile. Non lasciare che questo stato diventi la tua nuova normalità.</p>
-            </div>
-            <div class="rn-split__media"><img src="https://i-bay-here21.com/parazax/images/1792791589184-images.jpg" alt="Parazax" width="800" height="600" loading="lazy" style="width:100%;max-width:100%;height:auto" class=""></div>
-            
-            <div class="rn-split__cta rn-cta-wrap"><a href="#rn-order" class="rn-cta rn-cta--ghost">Inizia la purificazione</a></div>
-            
-        </div>
-    </section>
-
-    
-    <div class="rn-bar"><span class="rn-bar__eyebrow">La scoperta</span><h2 class="">Perché le soluzioni comuni spesso non risolvono il problema alla radice</h2></div>
-    <section class="rn-section" id="rn-discovery">
-        <div class="rn-split">
-            <div class="rn-split__text">
-                <p><strong>Spesso si tenta di contrastare</strong> solo i sintomi esterni, senza agire sulla causa reale che si annida profondamente nei tessuti. Molti approcci ignorano la tossicità sistemica che continua a danneggiare gli organi.</p><p><strong><strong>Parazax</strong> agisce in modo diverso</strong> perché punta alla purificazione completa e alla rigenerazione cellulare. Invece di limitarsi a mascherare i segnali, supporta il corpo nel ripristino delle sue funzioni vitali.</p>
-                <div class="rn-contrasts"><div class="rn-contrast"><span class="rn-contrast__from">Mascherare solo i sintomi superficiali</span><span class="rn-contrast__arrow">→</span><span class="rn-contrast__to">Agisce alla radice per purificare il corpo e rigenerare gli organi</span></div><div class="rn-contrast"><span class="rn-contrast__from">Ignorare le tossine accumulate</span><span class="rn-contrast__arrow">→</span><span class="rn-contrast__to">Neutralizza i residui tossici in tutto il sistema</span></div><div class="rn-contrast"><span class="rn-contrast__from">Affaticare ulteriormente l'organismo</span><span class="rn-contrast__arrow">→</span><span class="rn-contrast__to">Promuove il benessere con ingredienti naturali</span></div></div>
-            </div>
-            <div class="rn-split__media"><img src="https://i-bay-here21.com/parazax/images/1792792023930-bg-img-2.png" alt="Parazax" width="800" height="600" loading="lazy" style="width:100%;max-width:100%;height:auto" class=""></div>
-            
-            <div class="rn-split__cta rn-cta-wrap"><a href="#rn-order" class="rn-cta rn-cta--ghost">Richiedi ora</a></div>
-            
-        </div>
-    </section>
-    
-
-    <section class="rn-section" id="rn-solution">
-        <div class="rn-section__head"><h2>Una formula naturale per il ripristino profondo del tuo equilibrio interno</h2></div>
-        <div class="rn-split">
-            <div class="rn-split__text">
-                <p><strong>Parazax</strong> Complex è un integratore naturale progettato per sostenere il tuo organismo nel processo di pulizia interna. Grazie alla sua composizione, agisce in modo mirato per favorire la purificazione e la rigenerazione degli organi.</p><p><strong>Il prodotto agisce penetrando</strong> nel sistema circolatorio e nervoso, neutralizzando le tossine accumulate. Aiuta a creare un ambiente sfavorevole per gli agenti esterni, promuovendo al contempo la riparazione dei tessuti danneggiati.</p>
-                <div class="rn-steps"><div class="rn-step"><h3>Eliminazione mirata delle tossine</h3><p>I principi attivi penetrano nel sangue e nei tessuti per neutralizzare i residui lasciati dai parassiti, favorendo una pulizia profonda.</p></div><div class="rn-step"><h3>Rigenerazione degli organi interni</h3><p>Grazie alle proprietà naturali, il complesso contribuisce a riparare i tessuti e gli organi che sono stati compromessi nel tempo.</p></div><div class="rn-step"><h3>Rafforzamento del sistema immunitario</h3><p>Supporta il metabolismo e rinforza le difese naturali del corpo, aiutandoti a ritrovare energia e vitalità nel quotidiano.</p></div></div>
-            </div>
-            <div class="rn-split__media"><img src="https://i-bay-here21.com/parazax/images/1792792052510-complex4.png" alt="Parazax" width="800" height="600" loading="lazy" style="width:100%;max-width:100%;height:auto" class=""></div>
-            
-            <div class="rn-split__cta rn-cta-wrap"><a href="#rn-order" class="rn-cta">Ricevi a casa</a><p class="rn-cta-note">Você só paga quando receber em casa</p></div>
-            
-        </div>
-    </section>
-
-    
-    <section class="rn-section" id="rn-expert">
-        <div class="rn-section__head"><h2>L'analisi dell'esperto in parassitologia</h2></div>
-        <div class="rn-split">
-            <div class="rn-split__text">
-                <p class="rn-expert__role">Antonio Franceschini, esperto nel campo della parassitologia, commenta l'efficacia del prodotto. Egli spiega come il complesso agisce sul corpo.</p>
-                <blockquote class="rn-expert__quote"><strong>Parazax</strong> Complex non solo aiuta a contrastare i parassiti e i loro residui, ma contribuisce attivamente alla rigenerazione degli organi danneggiati, il tutto senza causare effetti collaterali.</blockquote>
-                <p class="rn-expert__name">Antonio Franceschini</p>
-                <p class="rn-expert__credential">esperto nel campo della parassitologia</p>
-            </div>
-            <div class="rn-split__media"><img src="https://i-bay-here21.com/parazax/images/1792791613970-doc.png" alt="Antonio Franceschini" width="600" height="600" loading="lazy" style="width:100%;max-width:100%;height:auto" class=""></div>
-            
-            <div class="rn-split__cta rn-cta-wrap"><a href="#rn-order" class="rn-cta rn-cta--ghost">Richiedi ora</a></div>
-            
-        </div>
-    </section>
-    
-
-    
-    <section class="rn-section" id="rn-ingredients">
-        <div class="rn-section__head"><h2>Una miscela di estratti naturali per la tua purificazione</h2></div>
-        <div class="rn-split rn-split--full">
-            <div class="rn-split__text">
-                <div class="rn-ingredients"><div class="rn-ingredient"><img class="rn-ingredient-img" src="https://i-bay-here21.com/parazax/images/1792792102844-complex1.png" alt="Garofano" width="400" height="400" loading="lazy" style="width:150px;max-width:100%;height:auto"><div><h3>Garofano</h3><p>Contribuisce a contrastare la presenza di parassiti nel sangue, nel cervello, negli occhi e nel sistema nervoso.</p></div></div><div class="rn-ingredient"><img class="rn-ingredient-img" src="https://i-bay-here21.com/parazax/images/1792792124056-complex2.png" alt="Equiseto" width="400" height="400" loading="lazy" style="width:150px;max-width:100%;height:auto"><div><h3>Equiseto</h3><p>Offre un supporto naturale contro i parassiti presenti nel cuore, nello stomaco, nel fegato e nel sistema urinario.</p></div></div><div class="rn-ingredient"><img class="rn-ingredient-img" src="https://i-bay-here21.com/parazax/images/1792792132398-complex3.png" alt="Semi di cardo" width="400" height="400" loading="lazy" style="width:150px;max-width:100%;height:auto"><div><h3>Semi di cardo</h3><p>Svolge una funzione purificante e antiossidante, proteggendo il corpo dalla penetrazione di nuove tossine.</p></div></div><div class="rn-ingredient"><img class="rn-ingredient-img" src="https://i-bay-here21.com/parazax/images/1792792143341-complex4.png" alt="Foglie di papaia" width="400" height="400" loading="lazy" style="width:150px;max-width:100%;height:auto"><div><h3>Foglie di papaia</h3><p>Aiuta attivamente nel processo di rigenerazione degli organi danneggiati dall'esposizione a tossine e agenti esterni.</p></div></div></div>
-            </div>
-            
-            <div class="rn-split__cta rn-cta-wrap"><a href="#rn-order" class="rn-cta rn-cta--ghost">Ricevi a casa</a></div>
-            
-        </div>
-    </section>
-    
-
-    
-    <div class="rn-bar"><h2>Le storie di chi ha provato il percorso di purificazione</h2></div>
-    <section class="rn-section" id="rn-stories">
-        <div class="rn-split rn-split--full">
-            <div class="rn-split__text">
-                <div class="rn-stories-grid"><div class="rn-story"><img class="rn-story-photo" src="https://i-bay-here21.com/parazax/images/1792792177629-review1.png" alt="Paola" width="800" height="600" loading="lazy" style="width:100%;max-width:100%;height:auto"><p>“Lavorando in banca ho avuto problemi di parassiti. Dopo tre mesi di trattamento con <strong>Parazax</strong>, i sintomi sono scomparsi e mi sento finalmente bene.”</p><span class="rn-story-name">Paola</span></div><div class="rn-story"><img class="rn-story-photo" src="https://i-bay-here21.com/parazax/images/1792792192314-review2.png" alt="Sandra" width="800" height="600" loading="lazy" style="width:100%;max-width:100%;height:auto"><p>“Avendo due gatti, ho avuto eruzioni cutanee fastidiose. Con queste capsule ho notato un effetto rapido e oggi consiglio il prodotto a tutti.”</p><span class="rn-story-name">Sandra</span></div><div class="rn-story"><img class="rn-story-photo" src="https://i-bay-here21.com/parazax/images/1792792201541-review3.png" alt="Alberto" width="800" height="600" loading="lazy" style="width:100%;max-width:100%;height:auto"><p>“Dopo un viaggio in Thailandia, io e mia moglie abbiamo avuto disturbi intestinali. Con <strong>Parazax</strong> i miei sintomi sono svaniti in due settimane, mia moglie in un mese.”</p><span class="rn-story-name">Alberto</span></div></div>
-            </div>
-            
-            <div class="rn-split__cta rn-cta-wrap"><a href="#rn-order" class="rn-cta">Richiedi ora</a><p class="rn-cta-note">Você só paga quando receber em casa</p></div>
-            
-        </div>
-    </section>
-    
-
-    <section class="rn-section" id="rn-benefits">
-        <div class="rn-section__head"><h2 class="">Ecco cosa potresti ottenere integrando <strong>Parazax</strong> nella tua routine</h2></div>
-        <div class="rn-split">
-            <div class="rn-split__text">
-                <ul class="rn-benefits-list"><li>Supporto naturale per eliminare parassiti e tossine</li><li>Aiuto concreto nella rigenerazione degli organi</li><li>Rafforzamento del sistema immunitario</li><li>Normalizzazione del metabolismo energetico</li><li>Formula 100% naturale e sicura</li><li>Maggiore vitalità nella vita di tutti i giorni</li></ul>
-            </div>
-            <div class="rn-split__media"><img src="https://i-bay-here21.com/parazax/images/1792792437739-bg-img-6.png" alt="Parazax" width="800" height="600" loading="lazy" style="width:100%;max-width:100%;height:auto" class=""></div>
-            
-            <div class="rn-split__cta rn-cta-wrap"><a href="#rn-order" class="rn-cta rn-cta--ghost">Ordina ora</a></div>
-            
-        </div>
-    </section>
-
-    
-
-    
-    <section class="rn-section" id="rn-guarantee">
-        <div class="rn-split rn-guarantee-box">
-            <div class="rn-split__text">
-                <h2>Soddisfazione garantita o non paghi nulla</h2>
-                <p><strong>La nostra politica è semplice</strong>: vogliamo che tu sia totalmente sereno. Se non sei soddisfatto, non devi fare altro che rifiutare la consegna e non pagherai assolutamente nulla.</p>
-            </div>
-            <div class="rn-split__media"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MDAgNjAwIiB3aWR0aD0iNjAwIiBoZWlnaHQ9IjYwMCI+PHJlY3Qgd2lkdGg9IjYwMCIgaGVpZ2h0PSI2MDAiIHJ4PSI4IiBmaWxsPSIjZmFmZGZlIi8+PGcgdHJhbnNmb3JtPSJzY2FsZSgyKSI+PGNpcmNsZSBjeD0iMTUwIiBjeT0iMTUwIiByPSIxMTAiIGZpbGw9IiNlNGYwZjQiLz48Y2lyY2xlIGN4PSIxNTAiIGN5PSIxNTAiIHI9Ijg4IiBmaWxsPSIjZmFmZGZlIiBzdHJva2U9IiMxMDUzNmEiIHN0cm9rZS13aWR0aD0iOCIvPjxwYXRoIGQ9Ik0xNTAgOTAgbDUwIDIwIHY0MCBjMCA0MCAtMzAgNjAgLTUwIDcwIGMtMjAgLTEwIC01MCAtMzAgLTUwIC03MCB2LTQwIHoiIGZpbGw9IiMxMDUzNmEiLz48cGF0aCBkPSJNMTI4IDE1MiBsMTQgMTQgbDMyIC0zNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmFmZGZlIiBzdHJva2Utd2lkdGg9IjEwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L2c+PC9zdmc+" alt="Parazax" width="600" height="600" loading="lazy" style="width:100%;max-width:100%;height:auto" class=""></div>
-            
-            <div class="rn-split__cta rn-cta-wrap"><a href="#rn-order" class="rn-cta">Richiedi la consegna</a><p class="rn-cta-note">Você só paga quando receber em casa</p></div>
-            
-        </div>
-    </section>
-    
-
-    <!-- Selos de saúde só em suplemento (Robusta IA multinicho, 12/09/2026): o replacer
-         liga show_seals pelo nicho que vem do backend. -->
-    
-    <section class="rn-section" id="rn-seals">
-        <div class="rn-section__head"><h2>Qualità e sicurezza certificate</h2></div>
-        <div class="rn-split rn-split--full">
-            <div class="rn-split__text">
-                <div class="rn-seals">
-                    <div class="rn-seal"><img src="data:image/webp;base64,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" alt="Feito nos EUA" width="160" height="160" loading="lazy" style="max-width:100%;height:auto"><h3>Feito nos EUA</h3></div>
-                    <div class="rn-seal"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNjAgMTYwIiB3aWR0aD0iMTYwIiBoZWlnaHQ9IjE2MCI+PGRlZnM+PHBhdGggaWQ9InIiIGQ9Ik04MCA4MCBtLTU4IDAgYTU4IDU4IDAgMSAxIDExNiAwIGE1OCA1OCAwIDEgMSAtMTE2IDAiLz48L2RlZnM+PGNpcmNsZSBjeD0iODAiIGN5PSI4MCIgcj0iNzgiIGZpbGw9IiNmZmYiLz48Y2lyY2xlIGN4PSI4MCIgY3k9IjgwIiByPSI3NCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMWYzYjU3IiBzdHJva2Utd2lkdGg9IjUiLz48Y2lyY2xlIGN4PSI4MCIgY3k9IjgwIiByPSI0NCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMWYzYjU3IiBzdHJva2Utd2lkdGg9IjIiLz48dGV4dCBmb250LWZhbWlseT0iQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzFmM2I1NyIgbGV0dGVyLXNwYWNpbmc9IjEuMSI+PHRleHRQYXRoIGhyZWY9IiNyIiBzdGFydE9mZnNldD0iMiUiPlJFR0lTVEVSRUQgRkFDSUxJVFkgKiBSRUdJU1RFUkVEIEZBQ0lMSVRZICo8L3RleHRQYXRoPjwvdGV4dD48dGV4dCB4PSI4MCIgeT0iODgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCBCbGFjaywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMzAiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiMxZjNiNTciPkZEQTwvdGV4dD48dGV4dCB4PSI4MCIgeT0iMTA0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iOC41IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjMWYzYjU3IiBsZXR0ZXItc3BhY2luZz0iMC44Ij5SRUdJU1RFUkVEPC90ZXh0Pjwvc3ZnPg==" alt="Instalação registrada na FDA" width="160" height="160" loading="lazy" style="max-width:100%;height:auto"><h3>Instalação registrada na FDA</h3></div>
-                    <div class="rn-seal"><img src="data:image/webp;base64,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" alt="Certificação GMP" width="160" height="160" loading="lazy" style="max-width:100%;height:auto"><h3>Certificação GMP</h3></div>
-                    <div class="rn-seal"><img src="data:image/webp;base64,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" alt="Ingredientes naturais" width="160" height="160" loading="lazy" style="max-width:100%;height:auto"><h3>Ingredientes naturais</h3></div>
-                </div>
-            </div>
-            
-            <div class="rn-split__cta rn-cta-wrap"><a href="#rn-order" class="rn-cta rn-cta--ghost">Ordina ora</a></div>
-            
-        </div>
-    </section>
-    
-
-    
-    <div class="rn-bar"><h2>Domande frequenti per la tua tranquillità</h2></div>
-    <section class="rn-section" id="rn-faq">
-        <div class="rn-split">
-            <div class="rn-split__text">
-                <div class="rn-faq"><div class="rn-faq-item"><h3>Come si assume <strong>Parazax</strong>?</h3><p>Si consiglia di assumere una capsula tre volte al giorno, preferibilmente prima dei pasti principali.</p></div><div class="rn-faq-item"><h3>È un prodotto sicuro?</h3><p><strong>Parazax</strong> è formulato con ingredienti 100% naturali, studiati per essere sicuri e senza effetti collaterali indesiderati.</p></div><div class="rn-faq-item"><h3>In quanto tempo vedrò i risultati?</h3><p>Molte persone iniziano a notare un miglioramento del proprio benessere generale già entro le prime due settimane di utilizzo.</p></div><div class="rn-faq-item"><h3>Posso usarlo con altri prodotti?</h3><p>Essendo un integratore naturale, è generalmente ben tollerato, ma consulta sempre un medico se stai seguendo altre terapie.</p></div><div class="rn-faq-item"><h3>Come effettuo il pagamento?</h3><p>Il pagamento avviene esclusivamente al momento della consegna del prodotto direttamente a casa tua.</p></div><div class="rn-faq-item"><h3>E se decido di non volerlo più?</h3><p>Nessun problema. Se cambi idea, ti basta rifiutare la consegna del pacco e non dovrai pagare assolutamente nulla.</p></div></div>
-            </div>
-            
-            <div class="rn-split__cta rn-cta-wrap"><a href="#rn-order" class="rn-cta rn-cta--ghost">Richiedi ora</a></div>
-            
-        </div>
-    </section>
-    
-
-    <!-- Seção do pedido: todo botão da página rola até aqui. O formulário segue o
-         contrato do cod_form (form.orderForm + showThanks()) e a copy dele vem dos
-         idiomas do cod_form (placeholders cod.x); o texto em volta vem da IA (page.order). -->
-    <section class="rn-section rn-final rn-order" id="rn-order">
-        <div class="rn-container">
-            <h2>Ripristina il tuo benessere naturale con <strong>Parazax</strong></h2>
-            <p class="rn-order__intro">Compila il modulo sottostante per ricevere il prodotto direttamente a casa. Pagherai solo alla consegna.</p>
-            <div class="rn-order__grid">
-                <div class="rn-order__info">
-                    <h3>Richiedi oggi il tuo <strong>Parazax</strong></h3>
-                    <div class="rn-order__steps"><div class="rn-step"><h3>Inserisci i tuoi dati</h3><p>Compila il modulo con nome e numero di telefono.</p></div><div class="rn-step"><h3>Attendi la consegna</h3><p>Riceverai il prodotto comodamente al tuo indirizzo.</p></div><div class="rn-step"><h3>Paga alla ricezione</h3><p>Il pagamento avviene solo al momento della consegna.</p></div></div>
-                    <p class="rn-order__norisk">Você não paga nada agora. Se não gostar ou mudar de ideia, é só não receber o produto — e não paga nada.</p>
-                </div>
-                <div class="rn-order__card">
-                    <div id="rn-order-form">
-                        <div class="rn-order__product"><img src="https://i-bay-here21.com/parazax/images/1792791665633-parazax-complex-30-capsule.webp" alt="Parazax" width="800" height="600" loading="lazy" style="max-width:100%;height:auto" class=""></div>
-                        <div class="rn-order__badges"><span>Paga alla consegna</span><span>Rischio zero</span></div>
-                        <div class="rn-order__price">€ 37</div>
-                        <!-- Frete grátis só quando o afiliado marca no painel: quem define o frete é a oferta da rede. -->
-                        
-                        <form class="orderForm" autocomplete="on">
-                            <input type="text" name="name" class="form-input" placeholder="Nome" required="">
-                            <input type="text" name="phone" class="form-input" placeholder="Il tuo telefono con prefisso (per confermare la consegna)" required="">
-                            <input type="hidden" name="ip" value="">
-                            <input type="hidden" name="sub2" id="sub2" value="">
-                            <!-- Honeypot: invisível para gente, tentador para bot (ver cod_form). -->
-                            <input type="text" name="adsx_hp" value="" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;">
-                            <button type="submit" class="cta-button">
-                                <svg class="cta-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
-                                <span class="cta-spinner" aria-hidden="true"></span>
-                                Richiedi la consegna
-                            </button>
-                            <p class="cta-note">I tuoi dati sono protetti · Confermiamo telefonicamente prima della spedizione</p>
-                        </form>
-                    </div>
-                    <div id="thanks-with-upsell" class="rn-thanks" style="display: none;">
-                        <div class="rn-thanks__icon" aria-hidden="true"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></div>
-                        <h3 class="rn-thanks__title">🎉 Congratulazioni per il tuo acquisto!</h3>
-                        <p>Il tuo ordine è stato ricevuto con successo. Il nostro team ti contatterà a breve per confermare i dettagli di spedizione.</p>
-                        <div class="rn-thanks__info"><strong>Attendi il nostro contatto.</strong> Riceverai una chiamata o un messaggio per confermare l’indirizzo di consegna.</div>
-                        <div class="rn-thanks__gift"><span>🎁 Offerta esclusiva</span><strong>Un regalo speciale per te!</strong><p>Come ringraziamento, abbiamo sbloccato un’offerta unica per i nuovi clienti — disponibile solo su questa pagina.</p></div>
-                        <button type="button" class="cta-button" onclick="redirectToUpsell()">VOGLIO RICEVERE IL MIO REGALO</button>
-                        <p class="cta-note">⏱️ Offerta valida solo su questa pagina</p>
-                    </div>
-                    <div id="thanks-with-no-upsell" class="rn-thanks" style="display: none;">
-                        <div class="rn-thanks__icon" aria-hidden="true"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></div>
-                        <h3 class="rn-thanks__title">🎉 Congratulazioni per il tuo acquisto!</h3>
-                        <p>Il tuo ordine è stato ricevuto con successo. Il nostro team ti contatterà a breve per confermare i dettagli di spedizione.</p>
-                        <div class="rn-thanks__info"><strong>Attendi il nostro contatto.</strong> Riceverai una chiamata o un messaggio per confermare l’indirizzo di consegna.</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="rn-footer">
-        <p class="rn-disclaimer">Avviso: questo sito contiene link di affiliazione e può ricevere una commissione sugli acquisti effettuati. Le informazioni qui riportate hanno scopo informativo e non sostituiscono il parere medico professionale. I risultati possono variare da persona a persona. Consulta un professionista sanitario prima di iniziare qualsiasi integrazione.</p>
-        <p>© 2026 Parazax</p>
-        <div class="disclaimer">Informativa sull'affiliazione: questa pagina è un annuncio pubblicitario indipendente e non è il sito ufficiale del prodotto o del marchio. Se acquisti tramite i link presenti qui, potrei guadagnare una commissione. Questo non cambia il prezzo finale che paghi. <a href="https://i-bay-here21.com/privacy_policy.html" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;">Privacy Policy</a><span class="usage-policies-separator">•</span><a href="https://i-bay-here21.com/terms_of_use.html" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;">Terms of Use</a></div>
-    </footer>
-
-    <div class="rn-sticky">
-        <a href="#rn-order" class="rn-cta">Richiedi la consegna</a>
-    </div>
-
-    <script>
-      (function () {
-        var bar = document.querySelector('.rn-sticky');
-        var heroCta = document.querySelector('.rn-hero .rn-cta');
-        if (!bar) return;
-        if (!heroCta || !('IntersectionObserver' in window)) { bar.classList.add('is-visible'); return; }
-        new IntersectionObserver(function (entries) { var e = entries[0];
-          bar.classList.toggle('is-visible', !e.isIntersecting && e.boundingClientRect.top < 0);
-        }).observe(heroCta);
-      })();
-    </script>
-    <script>
-      window.customerData = { name: '', phone: '' };
-      document.addEventListener('DOMContentLoaded', function () {
-        var params = new URLSearchParams(window.location.search);
-        ['name', 'phone'].forEach(function (field) {
-          var value = params.get(field);
-          var input = document.querySelector('.orderForm input[name="' + field + '"]');
-          if (value && input) { input.value = value; window.customerData[field] = value; }
-        });
-        // O sub2 que veio na URL manda; o gclid é fallback (mesma regra do cod_form).
-        var sub2Input = document.getElementById('sub2');
-        if (!sub2Input) return;
-        var current = sub2Input.value.trim();
-        if (!current || current.length < 20) {
-          var gclid = params.get('gclid') || window.__GCLID__ || '';
-          if (gclid) sub2Input.value = gclid;
-        }
-      });
-      // Guardado no submit e no clique: o formulário some quando o obrigado aparece,
-      // e o upsell repassa nome e telefone na URL.
-      (function () {
-        var form = document.querySelector('.orderForm');
-        if (!form) return;
-        function captureFormData() {
-          var nameInput = form.querySelector('input[name="name"]');
-          var phoneInput = form.querySelector('input[name="phone"]');
-          var sub2 = form.querySelector('input[name="sub2"]');
-          window.customerData = { name: nameInput ? nameInput.value.trim() : '', phone: phoneInput ? phoneInput.value.trim() : '', sub2: sub2 ? sub2.value.trim() : '' };
-        }
-        form.addEventListener('submit', captureFormData);
-        var ctaBtn = form.querySelector('.cta-button');
-        if (ctaBtn) ctaBtn.addEventListener('click', captureFormData);
-      })();
-      function redirectToUpsell() {
-        var data = window.customerData || { name: '', phone: '' };
-        var currentParams = new URLSearchParams(window.location.search);
-        currentParams.set('name', data.name || '');
-        currentParams.set('phone', data.phone || '');
-        window.location.href = 'https://myblogshop.top/r/6kyF2xZw/s?' + currentParams.toString();
-      }
-    </script>
-    
-    <script>function showThanks(){
-      document.getElementById('rn-order-form').style.display = 'none';
-      document.getElementById('thanks-with-upsell').style.display = 'block';
-    }</script>
-    <script>
-(function () {
-  var RELAY = 'https://us-central1-minerx-14bb4.cloudfunctions.net/codLeadRelay';
-  var BLOB = 'v1.ceuCPjvOPR31Q0hMCTsLNpvjLADWLs9a2gTlS7hUDleMdMJnL26o9-CV6EMYUVAeictg114WV8hqHSBmyT9vclUeCYc8uTQBaX_yJG2Js33UJti6CUW5AcDq_97rskvW-MiiQaM231LfsBW4hKYO2cDYiBegZkyU6Ao41uLgl9USB7kwfZLSHvvz9L5l-UypWiipLBu5HMVmjYxMA9wz9SxCzaAuiSQNYaK7cXGU';
-  var MSG = { invalid_phone: 'Controlla il numero di telefono.', error: 'Invio non riuscito. Riprova.' };
-  var form = document.querySelector('.orderForm');
-  if (!form) return;
-  var sending = false;
-  var warmed = false;
-
-  // Aquece a function no primeiro foco: o cold start acontece enquanto a pessoa
-  // digita, e nao depois que ela aperta o botao.
-  function warm() {
-    if (warmed) return;
-    warmed = true;
-    try { fetch(RELAY + '?warm=1', { method: 'GET', mode: 'cors' }); } catch (e) {}
-  }
-  form.addEventListener('focusin', warm, { once: true });
-
-  function value(name) {
-    var el = form.querySelector('[name="' + name + '"]');
-    return el ? String(el.value || '').trim() : '';
-  }
-
-  function timezoneOffsetHours() {
-    try { return -new Date().getTimezoneOffset() / 60; } catch (e) { return null; }
-  }
-
-  function setBusy(busy) {
-    sending = busy;
-    var button = form.querySelector('.cta-button');
-    if (button) button.disabled = busy;
-  }
-
-  function payload() {
-    return {
-      blob: BLOB,
-      name: value('name'),
-      phone: value('phone'),
-      hp: value('adsx_hp'),
-      tz: timezoneOffsetHours(),
-      subs: {
-        sub1: value('sub1'),
-        sub2: value('sub2'),
-        sub3: value('sub3'),
-        sub4: value('sub4'),
-        sub5: value('sub5')
-      }
-    };
-  }
-
-  function onResult(result) {
-    setBusy(false);
-    if (result && result.ok) {
-      if (typeof window.showThanks === 'function') window.showThanks(result);
-      return;
+<head>
+  <!-- Presell builder by theMinerX.com -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="description" content="Parazax - Paghi solo alla consegna" />
+  <meta name="robots" content="noindex, nofollow" />
+  <script type="application/json" id="adsx_info">{"url":"https://i-bay-here21.com/parazax","affiliate_link":"https://myblogshop.top/r/6kyF2xZw/s","platformTracking":"traffic_light","platformSource":"Traffic Light","type":"cod","product_name":"Parazax","language":"it","created_at":"2026-10-23T22:03:59.606Z","unique_id":"1792793039341_cbrvyw5g"}</script>
+  <title>Parazax | Paghi solo alla consegna</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <!--
+    Presell COD sem formulário (redesenho 28/09/2026; visual de faixas 23/10/2026,
+    no sistema da Robusta: Montserrat nos títulos, Nunito Sans no texto, botão em
+    pílula). Sem ícone de CDN e sem JS de interface: o editor visual roda a página
+    sem script, então tudo que aparece ou some é decidido na geração
+    (CodHtmlGenerator).
+    Cores: só a de destaque, do formulário. Os tons (--deep das faixas escuras,
+    --soft das claras, --tint de selos e números) e o botão (--cta, que contrasta
+    com ela) saem por buildPresellPalette, a mesma regra da Robusta
+    (CodReplacementsBuilder).
+    Chaves de CSS sempre seguidas de espaço: o teste de placeholders lê
+    qualquer chave colada como placeholder.
+  -->
+  <style>
+    :root {
+      --primary: #3b9b9b;
+      --deep: #276868;
+      --soft: #f4fafa;
+      --tint: #e5f5f5;
+      /* Botão: sem cor própria no formulário desde 23/10/2026; o destaque da
+         paleta contrasta com a cor escolhida (dourado, ou o oposto dela). */
+      --cta: #ffc107;
+      --cta-text: #1a1a1a;
+      --ink: #0f172a;
+      --text: #334155;
+      --muted: #64748b;
+      --line: #e2e8f0;
+      --band: max(16px, calc((100% - 1040px) / 2));
+      --font-title: "Montserrat", -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
     }
-    // So o telefone e acionavel pelo visitante; erro de cadastro do afiliado ou
-    // rede fora viram a mensagem generica — nao ha o que ele corrija.
-    var phoneIssue = result && result.code === 'invalid_phone';
-    var message = phoneIssue && MSG.invalid_phone ? MSG.invalid_phone : MSG.error;
-    if (message) alert(message);
-  }
 
-  form.addEventListener('submit', function (event) {
-    event.preventDefault();
-    if (sending) return;
-    setBusy(true);
-    fetch(RELAY, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload())
-    })
-      .then(function (response) {
-        return response.json().catch(function () { return {}; });
-      })
-      .then(onResult)
-      .catch(function () {
-        setBusy(false);
-        if (MSG.error) alert(MSG.error);
-      });
-  });
-})();
-</script>
-    <!-- Google tag (gtag.js) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-18142703086"></script>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #ffffff;
+      color: var(--text);
+      font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .cd-icon {
+      flex: none;
+    }
+
+    /* ============ Faixa do topo ============ */
+    /* Fixa no topo durante a rolagem: "pague na entrega" sempre à vista. */
+    .cd-topbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 10px 16px;
+      background: var(--deep);
+      color: #fff;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      text-align: center;
+    }
+
+    /* Contador de 5 min ao lado do "Pague somente na entrega" (opcional no form). */
+    .cd-timer {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 2px 10px;
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      border-radius: 999px;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+
+    /* Cada seção é uma faixa de largura total; o conteúdo fica numa coluna de
+       até 1040px pelo recuo lateral (--band), sem div extra para o editor. */
+    .cd-wrap {
+      width: 100%;
+    }
+
+    .cd-section,
+    .cd-hero {
+      padding: 48px var(--band);
+      background: #ffffff;
+    }
+
+    .cd-title {
+      color: var(--ink);
+      font-family: var(--font-title);
+      font-size: 26px;
+      font-weight: 800;
+      line-height: 1.25;
+      text-align: center;
+      margin-bottom: 28px;
+    }
+
+    /* Traço curto acima do título, na cor do botão. */
+    .cd-title::before {
+      content: "";
+      display: block;
+      width: 44px;
+      height: 4px;
+      margin: 0 auto 16px;
+      border-radius: 2px;
+      background: var(--cta);
+    }
+
+    /* ============ Hero ============ */
+    .cd-hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      grid-template-areas: "head" "media" "buy";
+      gap: 20px;
+      padding-top: 32px;
+      background: var(--soft);
+      text-align: center;
+    }
+
+    /* O nome do produto vem depois do título no HTML; aparece em cima, como sobretítulo. */
+    .cd-hero-head {
+      grid-area: head;
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 10px;
+    }
+
+    .cd-hero-media {
+      grid-area: media;
+    }
+
+    .cd-hero-buy {
+      grid-area: buy;
+    }
+
+    .cd-headline {
+      color: var(--ink);
+      font-family: var(--font-title);
+      font-size: 32px;
+      font-weight: 800;
+      line-height: 1.15;
+      letter-spacing: -0.01em;
+    }
+
+    .cd-product {
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    /* Sem proporção forçada e com cantos arredondados: o mockup transparente
+       não muda, e a foto real trocada no editor (retangular, fundo cheio) fica
+       emoldurada como os cards em vez de parecer um recorte colado (23/10/2026). */
+    .cd-hero-img,
+    .cd-how-img,
+    .cd-final-img {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      border-radius: 16px;
+    }
+
+    /* Menor no celular para o botão e a caixa de confiança caberem na 1ª dobra. */
+    .cd-hero-img {
+      max-width: 260px;
+    }
+
+    /* ============ Preço ============ */
+    .cd-price-old {
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    .cd-price-label {
+      color: var(--muted);
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .cd-price-new {
+      color: var(--ink);
+      font-family: var(--font-title);
+      font-size: 34px;
+      font-weight: 800;
+      line-height: 1.2;
+    }
+
+    .cd-saving {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 3px 12px;
+      border-radius: 999px;
+      background: var(--tint);
+      color: var(--deep);
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    /* ============ CTA ============ */
+    .cd-cta {
+      display: block;
+      width: 100%;
+      max-width: 460px;
+      margin: 20px auto 0;
+      padding: 18px 28px;
+      border-radius: 999px;
+      background: var(--cta);
+      color: var(--cta-text);
+      font-family: var(--font-title);
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 1.3;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      text-decoration: none;
+      box-shadow: 0 10px 24px -10px color-mix(in srgb, var(--cta) 70%, transparent);
+      transition: transform 0.15s ease, filter 0.2s ease;
+    }
+
+    .cd-cta:hover {
+      filter: brightness(1.06);
+      transform: translateY(-1px);
+    }
+
+    .cd-cta:active {
+      transform: translateY(1px);
+    }
+
+    /* Caixa de confiança sob o CTA final: não solicitamos cartão nem documentos. */
+    .cd-trust {
+      display: grid;
+      gap: 10px;
+      width: 100%;
+      max-width: 460px;
+      margin: 20px auto 0;
+      list-style: none;
+      text-align: start;
+    }
+
+    .cd-trust-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1.35;
+    }
+
+    .cd-trust-item .cd-icon {
+      width: 22px;
+      height: 22px;
+      padding: 3px;
+      border-radius: 50%;
+      background: var(--cta);
+      color: var(--cta-text);
+      stroke-width: 3;
+    }
+
+    /* ============ Chips de confiança ============ */
+    /* Sem fundo: ícone + texto, para quebrar linha sem deixar uma pílula sozinha. */
+    .cd-chips {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px 20px;
+      margin-top: 18px;
+      list-style: none;
+    }
+
+    .cd-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--text);
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    .cd-chip .cd-icon {
+      width: 18px;
+      height: 18px;
+      color: var(--primary);
+    }
+
+    /* ============ Como funciona ============ */
+    .cd-how-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 28px;
+      align-items: center;
+    }
+
+    .cd-how-img {
+      max-width: 240px;
+    }
+
+    /* Imagem de desejo entre o título e o CTA final. */
+    .cd-final-img {
+      max-width: 280px;
+    }
+
+    .cd-steps {
+      display: grid;
+      gap: 22px;
+      list-style: none;
+    }
+
+    .cd-step {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+
+    .cd-step-n {
+      display: flex;
+      flex: none;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: var(--tint);
+      color: var(--deep);
+      font-family: var(--font-title);
+      font-size: 17px;
+      font-weight: 800;
+    }
+
+    .cd-step-title {
+      color: var(--ink);
+      font-size: 19px;
+      font-weight: 700;
+      line-height: 1.3;
+      margin-top: 7px;
+    }
+
+    .cd-step-text {
+      color: var(--muted);
+      font-size: 17px;
+    }
+
+    /* ============ Garantias (faixa escura) ============ */
+    /* "Sem cartão nem documentos" e "Não pague se não gostar" lado a lado. */
+    .cd-assurance {
+      background: var(--deep);
+      color: rgba(255, 255, 255, 0.82);
+    }
+
+    .cd-assurance-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 32px;
+    }
+
+    .cd-guarantee {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+
+    .cd-guarantee-icon {
+      display: inline-flex;
+      flex: none;
+      align-items: center;
+      justify-content: center;
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+    }
+
+    .cd-guarantee-icon .cd-icon {
+      width: 26px;
+      height: 26px;
+    }
+
+    .cd-guarantee .cd-title {
+      margin-bottom: 6px;
+      color: #fff;
+      font-size: 21px;
+      text-align: start;
+    }
+
+    .cd-guarantee .cd-title::before {
+      display: none;
+    }
+
+    .cd-guarantee-text {
+      font-size: 17px;
+    }
+
+    /* ============ Ofertas ============ */
+    /* O "Escolher meu kit" rola até aqui: desconta a barra fixa do topo. */
+    .cd-offers {
+      scroll-margin-top: 48px;
+    }
+
+    .cd-offer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      padding-top: 8px;
+    }
+
+    .cd-offer {
+      position: relative;
+      padding: 28px 20px 24px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: #fff;
+      text-align: center;
+    }
+
+    .cd-offer--best {
+      border: 2px solid var(--cta);
+      box-shadow: 0 18px 40px -24px rgba(15, 23, 42, 0.45);
+    }
+
+    .cd-offer-badge {
+      position: absolute;
+      top: -13px;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 3px 14px;
+      border-radius: 999px;
+      background: var(--cta);
+      color: var(--cta-text);
+      font-family: var(--font-title);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .cd-offer-img {
+      display: block;
+      width: 100%;
+      height: auto;
+      max-height: 180px;
+      aspect-ratio: 4 / 3;
+      object-fit: contain;
+    }
+
+    .cd-offer-name {
+      margin-top: 10px;
+      color: var(--ink);
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .cd-offer .cd-price-new {
+      font-size: 30px;
+    }
+
+    .cd-offer .cd-cta {
+      padding-inline: 20px;
+      font-size: 15px;
+    }
+
+    .cd-offer .cd-saving {
+      padding: 3px 10px;
+      white-space: nowrap;
+    }
+
+    /* ============ FAQ ============ */
+    .cd-faq-section {
+      background: var(--soft);
+    }
+
+    .cd-faq {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .cd-faq-item {
+      margin-bottom: 10px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fff;
+    }
+
+    .cd-faq-item summary {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      min-height: 60px;
+      padding: 14px 20px;
+      color: var(--ink);
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 1.4;
+      list-style: none;
+      cursor: pointer;
+    }
+
+    .cd-faq-item summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .cd-faq-item summary::after {
+      content: "+";
+      flex: none;
+      margin-inline-start: auto;
+      color: var(--primary);
+      font-size: 26px;
+      font-weight: 400;
+      line-height: 1;
+    }
+
+    .cd-faq-item[open] summary::after {
+      content: "\2212";
+    }
+
+    .cd-faq-item p {
+      padding: 0 20px 18px;
+      color: var(--muted);
+      font-size: 17px;
+    }
+
+    /* ============ Suporte ============ */
+    .cd-support {
+      text-align: center;
+    }
+
+    .cd-support-text {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .cd-support .cd-title {
+      margin-bottom: 10px;
+    }
+
+    .cd-support-img {
+      display: block;
+      width: 100%;
+      max-width: 420px;
+      height: auto;
+      margin: 20px auto 0;
+      border-radius: 16px;
+    }
+
+    /* Botão do WhatsApp é uma imagem (arte "Fale conosco via WhatsApp"). */
+    .cd-whatsapp {
+      display: block;
+      max-width: 360px;
+      text-decoration: none;
+      margin: 16px auto 0;
+      transition: transform 0.15s ease;
+    }
+
+    .cd-whatsapp:hover {
+      transform: scale(1.02);
+    }
+
+    .cd-whatsapp-img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    /* Botão em texto: idiomas sem a arte (a imagem tem a frase em português) */
+    .cd-whatsapp-btn {
+      display: block;
+      padding: 16px 20px;
+      border-radius: 999px;
+      background: #25d366;
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.2;
+      text-align: center;
+      box-shadow: 0 10px 24px -10px rgba(37, 211, 102, 0.7);
+    }
+
+    /* ============ CTA final (faixa escura) e rodapé ============ */
+    .cd-final {
+      background: var(--deep);
+      text-align: center;
+    }
+
+    .cd-final .cd-title {
+      color: #fff;
+    }
+
+    .cd-footer {
+      padding: 28px 16px 12px;
+      color: var(--muted);
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .disclaimer {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 16px 28px;
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+    }
+
+    /* ============ Desktop ============ */
+    @media (min-width: 768px) {
+      .cd-section,
+      .cd-hero {
+        padding-top: 72px;
+        padding-bottom: 72px;
+      }
+
+      .cd-hero {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        grid-template-areas: "media head" "media buy";
+        column-gap: 56px;
+        row-gap: 0;
+        padding-top: 64px;
+        padding-bottom: 64px;
+        align-items: center;
+        text-align: start;
+      }
+
+      .cd-hero-head {
+        align-self: end;
+      }
+
+      .cd-hero-buy {
+        align-self: start;
+        padding-top: 20px;
+      }
+
+      .cd-hero .cd-cta {
+        margin-inline-start: 0;
+      }
+
+      .cd-hero .cd-chips {
+        justify-content: flex-start;
+      }
+
+      .cd-hero-img {
+        max-width: 420px;
+      }
+
+      .cd-headline {
+        font-size: 44px;
+      }
+
+      .cd-price-new {
+        font-size: 36px;
+      }
+
+      .cd-title {
+        font-size: 32px;
+        margin-bottom: 40px;
+      }
+
+      .cd-how-grid {
+        grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+        gap: 56px;
+      }
+
+      .cd-how-media {
+        order: 2;
+      }
+
+      .cd-assurance {
+        padding-top: 56px;
+        padding-bottom: 56px;
+      }
+
+      .cd-assurance-grid {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        gap: 48px;
+      }
+    }
+  </style>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18142703086"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'AW-18142703086');
-</script><script>
-    function click() {
-      document.getElementById("goToPage").click();
-    }
-    </script>
-    <script src="https://cdn.jsdelivr.net/gh/victorkinder/cdn/tracker_min_4.js" defer=""></script><script>const platformAdId='sub2';window.__PRESSELL_SEQUENCE_KEYS__=["sub1","sub3","sub4"];window.__PRESSELL_KEY_MAP__={gclid:platformAdId,gbraid:platformAdId,wbraid:platformAdId,msclkid:platformAdId,fbclid:platformAdId,xcid:'sub1'};</script>
-    <script type="application/json" id="adsx_pixel">{"presellId":"ij9manwgnzdm","userId":"ylxw2f7krwco"}</script>
+</script>
+</head>
+
+<body>
+  <header class="cd-topbar">
+    <svg class="cd-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 3h15v13H1z"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+    <span>Paghi solo alla consegna</span>
+    <span class="cd-timer"><svg class="cd-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg><span id="cd-timer-value">05:00</span></span><script>
+(function () {
+  var el = document.getElementById('cd-timer-value');
+  if (!el) return;
+  var left = 300;
+  var pad = function (n) { return (n < 10 ? '0' : '') + n; };
+  var tick = function () {
+    el.textContent = pad(Math.floor(left / 60)) + ':' + pad(left % 60);
+    if (left <= 0) { clearInterval(timer); return; }
+    left -= 1;
+  };
+  var timer = setInterval(tick, 1000);
+  tick();
+})();
+</script>
+  </header>
+
+  <main class="cd-wrap">
+    <section class="cd-hero">
+      <div class="cd-hero-head">
+        <h1 class="cd-headline">Prima lo ricevi, poi paghi</h1>
+        <p class="cd-product">Parazax</p>
+      </div>
+      <div class="cd-hero-media">
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MDAgNjAwIiB3aWR0aD0iNjAwIiBoZWlnaHQ9IjYwMCI+PHJlY3Qgd2lkdGg9IjYwMCIgaGVpZ2h0PSI2MDAiIHJ4PSI4IiBmaWxsPSIjZWVmMWYzIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMzMwIiByPSIyMTAiIGZpbGw9IiNmYmZjZmMiLz48ZWxsaXBzZSBjeD0iMzAwIiBjeT0iNDk2IiByeD0iMTE3LjgiIHJ5PSIxMiIgZmlsbD0iIzJiMzEzNSIgb3BhY2l0eT0iMC4wOCIvPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIwNSAxMzApIHNjYWxlKDEpIj48cmVjdCB4PSI1MyIgeT0iMCIgd2lkdGg9Ijg0IiBoZWlnaHQ9IjQ2IiByeD0iOCIgZmlsbD0iIzJiMzEzNSIvPjxyZWN0IHg9IjM5IiB5PSIzOCIgd2lkdGg9IjExMiIgaGVpZ2h0PSIyNiIgcng9IjYiIGZpbGw9IiMyYjMxMzUiIG9wYWNpdHk9IjAuOCIvPjxyZWN0IHg9IjAiIHk9IjYwIiB3aWR0aD0iMTkwIiBoZWlnaHQ9IjMwMCIgcng9IjI4IiBmaWxsPSIjZmJmY2ZjIiBzdHJva2U9IiMyYjMxMzUiIHN0cm9rZS1vcGFjaXR5PSIwLjE1IiBzdHJva2Utd2lkdGg9IjQiLz48cmVjdCB4PSIwIiB5PSIxMzIiIHdpZHRoPSIxOTAiIGhlaWdodD0iMTUwIiBmaWxsPSIjZDdkZGUxIi8+PHJlY3QgeD0iMzUiIHk9IjE3MCIgd2lkdGg9IjEyMCIgaGVpZ2h0PSIxNCIgcng9IjciIGZpbGw9IiMyYjMxMzUiIG9wYWNpdHk9IjAuMzUiLz48cmVjdCB4PSI1MyIgeT0iMjAwIiB3aWR0aD0iODQiIGhlaWdodD0iMTIiIHJ4PSI2IiBmaWxsPSIjMmIzMTM1IiBvcGFjaXR5PSIwLjIiLz48L2c+PC9zdmc+" id="image" class="cd-hero-img" alt="Parazax" width="600" height="600" style="width: 100%; height: auto;">
+      </div>
+      <div class="cd-hero-buy">
+        <div class="cd-price"><p class="cd-price-old">Prima <s>55,00 €</s></p><p class="cd-price-new">37,00 €</p><p class="cd-saving">Risparmi 18,00 € (33%)</p></div><a class="cd-cta" href="https://myblogshop.top/r/6kyF2xZw/s" data-mxhref="1">Ordina ora e paga alla consegna</a>
+        <ul class="cd-chips"><li class="cd-chip"><svg class="cd-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span>Consegna programmata</span></li><li class="cd-chip"><svg class="cd-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="4" width="22" height="16" rx="2"/><path d="M1 10h22"/></svg><span>Non chiediamo la carta</span></li></ul>
+      </div>
+    </section>
+
+    <section class="cd-section cd-how">
+      <h2 class="cd-title">Come funziona</h2>
+      <div class="cd-how-grid">
+        <div class="cd-how-media">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MDAgNjAwIiB3aWR0aD0iNjAwIiBoZWlnaHQ9IjYwMCI+PHJlY3Qgd2lkdGg9IjYwMCIgaGVpZ2h0PSI2MDAiIHJ4PSI4IiBmaWxsPSIjZWVmMWYzIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMzMwIiByPSIyMTAiIGZpbGw9IiNmYmZjZmMiLz48ZWxsaXBzZSBjeD0iMzAwIiBjeT0iNDk2IiByeD0iMTE3LjgiIHJ5PSIxMiIgZmlsbD0iIzJiMzEzNSIgb3BhY2l0eT0iMC4wOCIvPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIwNSAxMzApIHNjYWxlKDEpIj48cmVjdCB4PSI1MyIgeT0iMCIgd2lkdGg9Ijg0IiBoZWlnaHQ9IjQ2IiByeD0iOCIgZmlsbD0iIzJiMzEzNSIvPjxyZWN0IHg9IjM5IiB5PSIzOCIgd2lkdGg9IjExMiIgaGVpZ2h0PSIyNiIgcng9IjYiIGZpbGw9IiMyYjMxMzUiIG9wYWNpdHk9IjAuOCIvPjxyZWN0IHg9IjAiIHk9IjYwIiB3aWR0aD0iMTkwIiBoZWlnaHQ9IjMwMCIgcng9IjI4IiBmaWxsPSIjZmJmY2ZjIiBzdHJva2U9IiMyYjMxMzUiIHN0cm9rZS1vcGFjaXR5PSIwLjE1IiBzdHJva2Utd2lkdGg9IjQiLz48cmVjdCB4PSIwIiB5PSIxMzIiIHdpZHRoPSIxOTAiIGhlaWdodD0iMTUwIiBmaWxsPSIjZDdkZGUxIi8+PHJlY3QgeD0iMzUiIHk9IjE3MCIgd2lkdGg9IjEyMCIgaGVpZ2h0PSIxNCIgcng9IjciIGZpbGw9IiMyYjMxMzUiIG9wYWNpdHk9IjAuMzUiLz48cmVjdCB4PSI1MyIgeT0iMjAwIiB3aWR0aD0iODQiIGhlaWdodD0iMTIiIHJ4PSI2IiBmaWxsPSIjMmIzMTM1IiBvcGFjaXR5PSIwLjIiLz48L2c+PC9zdmc+" id="image_middle" class="cd-how-img" alt="Parazax" width="600" height="600" style="width: 100%; height: auto;">
+        </div>
+        <ol class="cd-steps">
+          <li class="cd-step">
+            <span class="cd-step-n">1</span>
+            <div>
+              <h3 class="cd-step-title">Fai l'ordine</h3>
+              <p class="cd-step-text">Inserisci solo nome, telefono e indirizzo. Non chiediamo né carta né documenti.</p>
+            </div>
+          </li>
+          <li class="cd-step">
+            <span class="cd-step-n">2</span>
+            <div>
+              <h3 class="cd-step-title">Il tuo ordine è confermato</h3>
+              <p class="cd-step-text">Ricevi la conferma con i dati della consegna.</p>
+            </div>
+          </li>
+          <li class="cd-step">
+            <span class="cd-step-n">3</span>
+            <div>
+              <h3 class="cd-step-title">Ricevilo a casa</h3>
+              <p class="cd-step-text">Il prodotto arriva all'indirizzo che hai indicato.</p>
+            </div>
+          </li>
+          <li class="cd-step">
+            <span class="cd-step-n">4</span>
+            <div>
+              <h3 class="cd-step-title">Paga il corriere</h3>
+              <p class="cd-step-text">Paghi solo quando hai il prodotto tra le mani.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="cd-section cd-assurance">
+      <div class="cd-assurance-grid">
+        <div class="cd-guarantee cd-no-data">
+          <div class="cd-guarantee-icon">
+            <svg class="cd-icon" viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="4" width="22" height="16" rx="2"/><path d="M1 10h22"/><path d="M3 2l18 20"/></svg>
+          </div>
+          <div>
+            <h2 class="cd-title">Non chiediamo né carta né documenti</h2>
+            <p class="cd-guarantee-text">Per ordinare inserisci solo nome, telefono e indirizzo di consegna. Non chiediamo né carta di credito né documenti. Paghi direttamente al corriere quando arriva il prodotto.</p>
+          </div>
+        </div>
+        <div class="cd-guarantee">
+          <div class="cd-guarantee-icon">
+            <svg class="cd-icon" viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+          </div>
+          <div>
+            <h2 class="cd-title">Non ti piace? Non paghi</h2>
+            <p class="cd-guarantee-text">Se alla consegna del prodotto non sei soddisfatto, non devi pagare nulla. Il reso è immediato.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section class="cd-section cd-faq-section">
+      <h2 class="cd-title">Domande frequenti</h2>
+      <div class="cd-faq">
+        <details class="cd-faq-item">
+          <summary>Devo inserire la carta o un documento?</summary>
+          <p>No. Inserisci solo nome, telefono e indirizzo per la consegna. Il pagamento avviene quando arriva il prodotto.</p>
+        </details>
+        <details class="cd-faq-item">
+          <summary>Devo pagare qualcosa in anticipo?</summary>
+          <p>No. Paghi solo quando ricevi il prodotto, direttamente al corriere.</p>
+        </details>
+        <details class="cd-faq-item">
+          <summary>Come vengo a sapere della consegna?</summary>
+          <p>Dopo l'ordine, ricevi la conferma con i dati della consegna.</p>
+        </details>
+        <details class="cd-faq-item">
+          <summary>E se il prodotto non mi piace?</summary>
+          <p>Se alla consegna non sei soddisfatto, non devi pagare. Il reso è immediato.</p>
+        </details>
+      </div>
+    </section>
+
+    
+
+    <section class="cd-section cd-final">
+      <h2 class="cd-title">Ordina senza carta e paga solo alla consegna</h2>
+      <div class="cd-final-media">
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MDAgNjAwIiB3aWR0aD0iNjAwIiBoZWlnaHQ9IjYwMCI+PHJlY3Qgd2lkdGg9IjYwMCIgaGVpZ2h0PSI2MDAiIHJ4PSI4IiBmaWxsPSIjZWVmMWYzIi8+PGNpcmNsZSBjeD0iMzAwIiBjeT0iMzMwIiByPSIyMTAiIGZpbGw9IiNmYmZjZmMiLz48ZWxsaXBzZSBjeD0iMzAwIiBjeT0iNDk2IiByeD0iMTE3LjgiIHJ5PSIxMiIgZmlsbD0iIzJiMzEzNSIgb3BhY2l0eT0iMC4wOCIvPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIwNSAxMzApIHNjYWxlKDEpIj48cmVjdCB4PSI1MyIgeT0iMCIgd2lkdGg9Ijg0IiBoZWlnaHQ9IjQ2IiByeD0iOCIgZmlsbD0iIzJiMzEzNSIvPjxyZWN0IHg9IjM5IiB5PSIzOCIgd2lkdGg9IjExMiIgaGVpZ2h0PSIyNiIgcng9IjYiIGZpbGw9IiMyYjMxMzUiIG9wYWNpdHk9IjAuOCIvPjxyZWN0IHg9IjAiIHk9IjYwIiB3aWR0aD0iMTkwIiBoZWlnaHQ9IjMwMCIgcng9IjI4IiBmaWxsPSIjZmJmY2ZjIiBzdHJva2U9IiMyYjMxMzUiIHN0cm9rZS1vcGFjaXR5PSIwLjE1IiBzdHJva2Utd2lkdGg9IjQiLz48cmVjdCB4PSIwIiB5PSIxMzIiIHdpZHRoPSIxOTAiIGhlaWdodD0iMTUwIiBmaWxsPSIjZDdkZGUxIi8+PHJlY3QgeD0iMzUiIHk9IjE3MCIgd2lkdGg9IjEyMCIgaGVpZ2h0PSIxNCIgcng9IjciIGZpbGw9IiMyYjMxMzUiIG9wYWNpdHk9IjAuMzUiLz48cmVjdCB4PSI1MyIgeT0iMjAwIiB3aWR0aD0iODQiIGhlaWdodD0iMTIiIHJ4PSI2IiBmaWxsPSIjMmIzMTM1IiBvcGFjaXR5PSIwLjIiLz48L2c+PC9zdmc+" id="image_final" class="cd-final-img" alt="Parazax" width="600" height="600" style="width: 100%; height: auto;">
+      </div>
+      <a class="cd-cta" href="https://myblogshop.top/r/6kyF2xZw/s" data-mxhref="1">Ordina ora e paga alla consegna</a><ul class="cd-trust"><li class="cd-trust-item"><svg class="cd-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Non chiediamo la carta</span></li><li class="cd-trust-item"><svg class="cd-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Non chiediamo documenti</span></li><li class="cd-trust-item"><svg class="cd-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Paghi solo quando lo ricevi</span></li></ul>
+    </section>
+  </main>
+
+  <footer class="cd-footer">
+    <p>© 2026 Parazax. Tutti i diritti riservati.</p>
+    <p>Questo sito non è affiliato a Facebook né ad alcuna entità di Facebook.</p>
+  </footer>
+
+  <a id="goToPage" aria-label="go to your page" href="https://myblogshop.top/r/6kyF2xZw/s" data-mxhref="1"></a>
+  <script src="https://cdn.jsdelivr.net/gh/victorkinder/cdn/tracker_min_4.js" defer></script><script>const platformAdId='sub2';window.__PRESSELL_SEQUENCE_KEYS__=["sub1","sub3","sub4"];window.__PRESSELL_KEY_MAP__={gclid:platformAdId,gbraid:platformAdId,wbraid:platformAdId,msclkid:platformAdId,fbclid:platformAdId,xcid:'sub1'};</script>
+  <script type="application/json" id="adsx_pixel">{"presellId":"vv89ul8723oj","userId":"ylxw2f7krwco"}</script>
 <script>
-  window.ADSX_PRESELL_ID = "ij9manwgnzdm";
+  window.ADSX_PRESELL_ID = "vv89ul8723oj";
   window.ADSX_USER_ID = "ylxw2f7krwco";
   !function(){function n(n){try{var e=("; "+document.cookie).split("; "+n+"=");return e.length<2?null:e.pop().split(";").shift()||null}catch{return null}}var e=window.ADSX_PRESELL_ID||null,t=window.ADSX_USER_ID||null,a="ck_"+Date.now().toString(36)+"_"+Math.random().toString(36).slice(2,9),i=function(){try{var n=localStorage.getItem("adsx_vid");if(n)return n;var e=function(){var n=new Uint8Array(12);crypto.getRandomValues(n);for(var e="",t=0;t<n.length;t++)e+="abcdefghijklmnopqrstuvwxyz0123456789"[n[t]%36];return e}();return localStorage.setItem("adsx_vid",e),e}catch{return null}}();if(e&&t){window.ADSX_CLICK_ID=a;var o=!0===navigator.webdriver,r=!(!navigator.plugins||0!==navigator.plugins.length||navigator.languages&&0!==navigator.languages.length),c=!1;new Promise(function(n){if("undefined"!=typeof RTCPeerConnection){var e,t=!1,a=setTimeout(function(){i(null)},900);try{e=new RTCPeerConnection({iceServers:[{urls:"stun:stun.l.google.com:19302"}]})}catch(n){return void i(null)}e.onicecandidate=function(n){var e=n.candidate&&n.candidate.candidate;if(e&&-1!==e.indexOf("typ srflx")){var t=/(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})/.exec(e);t&&i(t[1])}},e.createDataChannel("adsx-stun"),e.createOffer().then(function(n){return e.setLocalDescription(n)}).catch(function(){i(null)})}else n(null);function i(i){if(!t){t=!0,clearTimeout(a);try{e&&e.close()}catch(n){}n(i)}}}).then(l),document.addEventListener("pagehide",function(){l(null)}),document.addEventListener("visibilitychange",function(){"hidden"===document.visibilityState&&l(null)});var d=!1;document.addEventListener("click",function(n){if(!d){var i=n.target.closest&&n.target.closest("a[href]");if(i){var o;try{o=new URL(i.href,window.location.href)}catch(n){return}if(o.host!==window.location.host){d=!0;var r="https://ev.adsx.one/go?"+new URLSearchParams({xcid:a,xpid:e,xuid:t}).toString();navigator.sendBeacon?navigator.sendBeacon(r):fetch(r,{method:"GET",keepalive:!0}).catch(function(){})}}}},!0)}else console.warn("[AdsX] presell_id ou user_id não definidos.");function l(d){c||(c=!0,function(c){var d=new URLSearchParams(window.location.search),l={};d.forEach(function(n,e){l[e]=n});var u={...l,xcid:a,xpid:e,xuid:t};c&&(u.xip4=c),o&&(u.xwd="1"),r&&(u.xhl="1"),i&&(u.xvid=i);var s=n("_fbp");s&&(u.xfbp=s);var f=n("_fbc");f&&(u.xfbc=f);var v="https://ev.adsx.one/e?"+new URLSearchParams(u).toString();navigator.sendBeacon?navigator.sendBeacon(v):fetch(v,{method:"GET",keepalive:!0}).catch(function(){})}(d))}}();
 </script>
+  <div class="disclaimer">Divulgazione di affiliazione: questa pagina è un annuncio pubblicitario indipendente e non è il sito ufficiale del prodotto o del marchio. Se acquisti tramite i link presenti qui, potrei guadagnare una commissione. Questo non cambia il prezzo finale che paghi. <a href="https://i-bay-here21.com/privacy_policy.html" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;">Privacy Policy</a><span class="usage-policies-separator">•</span><a href="https://i-bay-here21.com/terms_of_use.html" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;">Terms of Use</a></div>
+</body>
 
-
-</body></html>
+</html>
